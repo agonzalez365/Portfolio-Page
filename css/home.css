@@ -46,6 +46,12 @@ main{
 
 .links li a:hover{
     color: var(--nav-highlight-color);
-    background-color: #91093d;
+    background-color: var(--button-hover-color);
     transition: all 300ms;
+}
+
+@media screen and (min-width: 930px) {
+    .links li a {
+        margin: 0 1em;
+    }
 }

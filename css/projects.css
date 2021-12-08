@@ -1,0 +1,53 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.preview-img  img{
+    border-radius: 50%;
+}
+
+.project-description span{
+    display: flex;
+    justify-content: center;
+    padding: 1ch;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.project-description span a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 1ch;
+    font-size: 0.75em;
+    color: var(--navbar-text-color);
+    background-color: var(--navbar-color-2);
+    border-radius: 0.5em;
+
+}
+
+.project-description span a:hover{
+    color: var(--nav-highlight-color);
+    background-color: var(--button-hover-color);
+}
+
+@media screen and (min-width: 930px){
+    .project {
+        flex-direction: row;
+    }
+
+    .project-description {
+        margin-left: 2em;
+    }
+}
