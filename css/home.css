@@ -1,9 +1,10 @@
 main{
     padding-top: 0;
+    max-width: 100%;
 }
 
-.hero-image {
-    background-image: url(https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+.hero-div {
+    background-image: url(https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     height: 100vh;
     max-height: 100%;
     width: 100%;
@@ -16,6 +17,7 @@ main{
 
 .hero-text {
     font-size: 1.5em;
+    text-shadow: 0px 0px 10px black;
 }
 
 .hero-text h1{
