@@ -55,3 +55,9 @@ main{
         margin: 0 1em;
     }
 }
+
+@media screen and (max-width: 430px){
+    .hero-text h1 {
+        font-size: 1.6em;
+    }
+}
