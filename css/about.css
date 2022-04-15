@@ -34,12 +34,72 @@ h1 {
     justify-content: center;
 }
 
+/* language stylings */
+.lang-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.lang {
+    margin: 1rem;
+    padding: 0.75rem;
+    background-color: red;
+    border-radius: 0.5rem;
+}
+
+.lang a {
+    color: var(--navbar-text-color);
+    text-decoration: none;
+}
+
+.lang:hover{
+    transition: transform 500ms;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.lang:not(:hover){
+    transition: transform 500ms;
+    transform: scale(1);
+}
+
+/* language specific coloring */
+#lang-HTML {
+    background-color: #f16528;
+}
+
+#lang-CSS {
+    background-color: #2a65f1;
+}
+
+#lang-JavaScript {
+    background-color: #f0db4e;
+}
+
+#lang-JavaScript a {
+    color: #323230;;
+}
+
+#lang-SQL {
+    background-color: #153c67;
+}
+
+#lang-Java {
+    background-color: #ed2025;
+}
+
+#lang-Csharp {
+    background-color: #390091;
+}
+
 /* contact section styling */
 .contact-container  {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 1rem;
 }
 
 .contact-info {
