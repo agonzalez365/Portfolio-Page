@@ -33,3 +33,50 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+/* contact section styling */
+.contact-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 3em;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.contact a{
+    text-decoration: none;
+    color: var(--navbar-text-color);
+}
+
+.contact a:last-child{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.contact:hover a{
+    color: var(--nav-highlight-color);
+}
+
+@media screen and (max-width: 530px){
+    .contact a:last-child{
+        font-size: 1em;
+        font-weight: 700;
+    }
+}
